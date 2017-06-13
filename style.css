@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	margin:0; padding:0; 
+	
+}
+
+.header {padding-top: 15px;} 
+
+.mainContainer {
+	background-color: #daeff0;
+	display: block;
+}
+
+.albumIcon {
+	height: 60px; width: 60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li img {
+  float: left;
+  margin: 10px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	border: 0;
+}
+
+/* ----------------------------------------------- */
+
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 321px) {
+	 
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	
+	
+    
+}
+
+/* --- Extra small devices portrait phones, less than 544px --- */
+@media (max-width: 543px) {
+	
+}
+
+/* --- Small devices (landscape phones, 544px and up) --- */
+@media (min-width: 544px) and (max-width: 767px) {
+	 
+}
+
+
+/* --- Medium devices (tablets, 768px and up) --- */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+  
+ 
+/* --- Large devices (desktops, 992px and up) --- */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	
+}
+
+/* --- Large devices (desktops, 1200px to 1475px) --- */
+@media (min-width: 1200px) and (max-width: 1575px) { 
+	
+	
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+{
+	
+}
+
+
