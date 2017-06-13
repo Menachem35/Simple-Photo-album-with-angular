@@ -1,0 +1,17 @@
+<div>
+	<ul>
+		<li ng-repeat="albumDetails in albumDetails  | searchFor:searchString">
+			
+			<div class="d-flex flex-row">
+				<div class="p-2"><img src="img/photo_album.png" class="albumIcon img-fluid" /></div>
+				<div class="p-2">
+					<p><strong>Album title:</strong> <a href="#/photos/{{albumDetails.id}}">{{albumDetails.title}}</a></p>
+					<p><strong>Owner’s name:</strong> {{albumUsers[albumDetails.id].name}}</p>			
+					<p>Number of Photos: {{ 'PhotoDetails[$index]' | lengthOfObject }}  </p>	
+				</div>
+   
+			</div>	
+			<hr />
+		</li>
+	</ul>
+</div>
