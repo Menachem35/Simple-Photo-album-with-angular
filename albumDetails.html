@@ -1,0 +1,17 @@
+<div>
+	<p><a href="#/albums">Go back to home page</a></p>
+	<ul>
+		<li ng-repeat="PhotoDetails in PhotoDetails">
+			<a href="#myModal" data-toggle="modal" data-target=".photoBig{{PhotoDetails.id}}"><img src="{{PhotoDetails.thumbnailUrl}}" /></a>		
+					
+			<div class="modal fade photoBig{{PhotoDetails.id}}" id="modalContainer" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel{{PhotoDetails.id}}" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<img src="{{PhotoDetails.url}}" />
+					</div>
+				</div>
+			</div>		
+					 
+		</li>
+	</ul>
+</div>
